@@ -1,2 +1,2 @@
-# hurenxu.github.io
-Renxu Hu's Personal Website
+# Welcome to my personal weibite
+Please visit at renxuhu.com
