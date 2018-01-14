@@ -641,8 +641,8 @@
     background-image: 
       linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
       url('../images/banner_cs.jpg'); 
-    background-repeat: round no-repeat;
     background-size: cover;
+
   }
 
   .hoverable {
