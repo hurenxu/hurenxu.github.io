@@ -638,9 +638,8 @@
 
   #fh5co-intro-section {
     padding-bottom: 2em;
-    background-image: 
-      linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), 
-      url('../images/banner_cs.jpg'); 
+	background-color: #2E78A6;
+    
     background-size: cover;
 
   }
@@ -1000,13 +999,13 @@
     font-weight: 300;
     line-height: 1.5;
     color: white; 
-    font-family: Georgia Black;
+    font-family: Montserrat,Helvetica,sans-serif;
   }
 
   .intro-body {
 
     color: white;
-    font-family: Times New Roman;
+    font-family: Montserrat,Helvetica,sans-serif;
   }
 
   .experience-body {
