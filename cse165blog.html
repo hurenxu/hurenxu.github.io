@@ -7,12 +7,12 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
-
 		<!-- Header -->
 			<div id="header">
 				<div class="top">
 					<!-- Logo -->
 						<div id="logo">
+							<span class="image avatar48"><img src="imgs/avatar.jpg" alt="" /></span>
 							<h1 id="title">Yanqing Cheng<br>Renxu Hu</h1>
 							<p>Project Developers</p>
 						</div>
@@ -34,7 +34,7 @@
 					<section id="top" class="one dark cover">
 						<div class="container">
 							<header>
-                                <h2 class="alt"><strong><b>Fisherman's Diary</b></strong><br>Hi! This is <strong>Yanqing Cheng and Renxu Hu</strong>'s project blog.</h2>
+                                <h2 class="alt"><strong><b>Fisherman's Diary</b></strong></hr><br><h2 class="alt">Hi! This is <strong>Yanqing Cheng and Renxu Hu</strong>'s project blog.</h2>
 							</header>
 						</div>
 					</section>
@@ -58,26 +58,34 @@
                                 user can find an occean surrounded by a mountain terrain and a virtual fish market with the<br>
                                 symbolic input design.<br> <br>
                                 In the occean, there will be some fishes that can be detected and captured by users. <br>
-                                After the capturing, the user will be able to sell the inventory to earn money.
+                                After the capturing, the user will be able to sell the inventory to earn money. After <br>
+								earning money, the user will be able to get higher-level tool to capture fish and can <br>
+								capture the higher-level fish.<br><br>
+								We will have two screens that attach both the user's left hand and the right hand. The <br>
+								screen on the left will let the user know how many oxygen left, and the screen on the <br>
+								right implements wayfinding techniques so that the user will know where the fishs are.<br><br>
                                 </span></p>
                             <p style="font-weight: bold"><br>
                                 The technical features you are implementing:<span style="color: black; font-weight: normal;">
                                     <br>Selection: Go-Go<br>
-                                    Symbolic Input: Virtual Keyboard<br>Manipulation: Go-Go with Button Inputs<br>
+                                    Symbolic Input: Virtual Keyboard<br>
+									Manipulation: Go-Go with Button Inputs<br>
                                     System Control: Menu Design with action/toggle button, slider, choice list, and sub-menu<br>
-                                    Wayfinding: minmap, and something else that we have not decided yet<br>
-                                    Travel: not implemented yet<br>
-                                    Spatial Audio: not implemented yet
+                                    Wayfinding: minmap and compass<br>
+                                    Travel: Implemented both manual manipulation for mimicing driving the submarine<br>
+									and implemented the viewpoint orientation techniques, such as head tracking<br>
+                                    Spatial Audio: Different audio sources support all gameobjects and environment settings.
                                 </span>
                             </p>
                             <p style="font-weight: bold">
                                 What you are planning on spending your creative efforts on:<span style="color: black; font-weight: normal;">
                                     <br>
-                                    Implementing the fog style effects to give the illusion of being under water<br>
-                                    Applying the manipulation with Go-Go to allow the capture of fish, the selling of
-                                    fish<br>
-                                    Integrated the spatial audio for every objects to create sound effects<br>
-                                    Using the menu so that it allows the trade-making between user and computer
+									We almost finish all the implementations, but there are still few more things left<br>
+									First, at level 4, the tool is upgraded to a magic wand so the user will be able to<br>
+									catch any fishes<br>
+									Second, add a sound effect when the user catches the fish<br>
+									Third, modified the fog, at different levels, the fog should be different<br>
+									Fourth, add more fishes<br>
                                 </span>
                             </p>
                         </div>
@@ -94,13 +102,13 @@
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="imgs/Capture.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="imgs/Capture.jpg" alt="Screen Shot" /></a>
 										<header>
 											<h3>First Capture</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="imgs/Capture1.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="imgs/Capture1.jpg" alt="Screen Shot" /></a>
 										<header>
                                             <h3>Fourth Capture</h3>
 										</header>
@@ -108,13 +116,13 @@
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="imgs/Capture2.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="imgs/Capture2.jpg" alt="Screen Shot" /></a>
 										<header>
                                             <h3>Second Capture</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="imgs/Capture3.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="imgs/Capture3.jpg" alt="Screen Shot" /></a>
 										<header>
 											<h3>Fifth Capture</h3>
 										</header>
@@ -122,9 +130,15 @@
 								</div>
 								<div class="4u$ 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="imgs/Capture4.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="imgs/Capture4.jpg" alt="Screen Shot" /></a>
 										<header>
 											<h3>Third Capture</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="imgs/Capture5.PNG" alt="Screen Shot" /></a>
+										<header>
+											<h3>Sixth Capture</h3>
 										</header>
 									</article>
 								</div>
@@ -141,6 +155,5 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
