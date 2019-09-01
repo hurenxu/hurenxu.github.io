@@ -1,2 +1,2 @@
 # Welcome to my personal weibite
-Please visit at renxuhu.com
+Please visit my [personal website](www.renxuhu.com)
